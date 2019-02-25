@@ -1,0 +1,276 @@
+@import url(http://fonts.googleapis.com/css?family=Raleway:400,300,800|Lora:400italic|Playfair+Display:700);
+
+
+body {
+    margin-left: 15%;
+    margin-right: 15%;
+    background: #FAEBD8;
+    color: #69606b;
+}
+
+h1,h2 {
+    text-align: center; /* all headings centered */
+    clear: both;
+}
+
+p {
+    font-family: 'Raleway', Arial, sans-serif;
+    font-size: 17pt;
+    margin-top: .51em;
+    text-align: justify;
+    margin-bottom: .49em;
+}
+
+hr {
+    width: 33%;
+    margin-top: 2em;
+    margin-bottom: 2em;
+    margin-left: 33.5%;
+    margin-right: 33.5%;
+    clear: both;
+}
+
+hr.chap {width: 65%; margin-left: 17.5%; margin-right: 17.5%;}
+hr.tb {width: 45%; margin-left: 27.5%; margin-right: 27.5%;}
+
+.center   {text-align: center;}
+
+.right   {text-align: right;}
+
+.caption  {font-weight: bold;}
+
+/* Images */
+.figcenter   {
+    margin: auto;
+    text-align: center;
+}
+
+/* Footnotes */
+.footnotes        {border: dashed 1px;}
+
+.footnote         {margin-left: 10%; margin-right: 10%; font-size: 0.9em;}
+
+.footnote .label  {position: absolute; right: 84%; text-align: right;}
+
+.fnanchor {
+    vertical-align: super;
+    font-size: .8em;
+    text-decoration:
+    none;
+}
+
+div.titlepage {
+  text-align: center;
+  page-break-before: always;
+  page-break-after: always;
+}
+
+div.titlepage p {
+  text-align: center;
+  text-indent: 0em;
+  font-weight: bold;
+  line-height: 1.5;
+  margin-top: 3em;
+}
+
+.ph1 { text-align: center; text-indent: 0em; font-weight: bold; }
+.ph1 { font-size: large; margin: .83em auto; }
+
+
+P.noindent {text-indent: 0% }
+
+P.poem {text-indent: 0%;
+        margin-left: 10%;
+        font-size: small }
+
+P.letter {font-size: small ;
+          margin-left: 10% ;
+          margin-right: 10% }
+
+P.salutation {font-size: small ;
+              text-indent: 0%;
+              margin-left: 10% ;
+              margin-right: 10% }
+
+P.closing {font-size: small ;
+           text-indent: 0%;
+           margin-left: 10% ;
+           margin-right: 10% }
+
+P.footnote {font-size: small ;
+            text-indent: 0% ;
+            margin-left: 0% ;
+            margin-right: 0% }
+
+P.transnote {font-size: small ;
+             text-indent: 0% ;
+             margin-left: 0% ;
+             margin-right: 0% }
+
+P.index {font-size: small ;
+         text-indent: -5% ;
+         margin-left: 5% ;
+         margin-right: 0% }
+
+P.intro {font-size: medium ;
+         text-indent: -5% ;
+         margin-left: 5% ;
+         margin-right: 0% }
+
+P.dedication {text-indent: 0%;
+              margin-left: 15%;
+              text-align: justify }
+
+P.published {font-size: small ;
+             text-indent: 0% ;
+             margin-left: 15% }
+
+P.quote {font-size: small ;
+         text-indent: 4% ;
+         margin-left: 0% ;
+         margin-right: 0% }
+
+P.report {font-size: small ;
+         text-indent: 4% ;
+         margin-left: 0% ;
+         margin-right: 0% }
+
+P.report2 {font-size: small ;
+         text-indent: 4% ;
+         margin-left: 10% ;
+         margin-right: 10% }
+
+P.finis { text-align: center ;
+          text-indent: 0% ;
+          margin-left: 0% ;
+          margin-right: 0% }
+
+H3.h3left { margin-left: 0%;
+            margin-right: 1%;
+            margin-bottom: .5% ;
+            margin-top: 0;
+            float: left ;
+            clear: left ;
+            text-align: center }
+
+H3.h3right { margin-left: 1%;
+             margin-right: 0 ;
+             margin-bottom: .5% ;
+             margin-top: 0;
+             float: right ;
+             clear: right ;
+             text-align: center }
+
+H3.h3center { margin-left: 0;
+              margin-right: 0 ;
+              margin-bottom: .5% ;
+              margin-top: 0;
+              float: none ;
+              clear: both ;
+              text-align: center  }
+
+H4.h4left { margin-left: 0%;
+            margin-right: 1%;
+            margin-bottom: .5% ;
+            margin-top: 0;
+            float: left ;
+            clear: left ;
+            text-align: center }
+
+H4.h4right { margin-left: 1%;
+             margin-right: 0 ;
+             margin-bottom: .5% ;
+             margin-top: 0;
+             float: right ;
+             clear: right ;
+             text-align: center }
+
+H4.h4center { margin-left: 0;
+              margin-right: 0 ;
+              margin-bottom: .5% ;
+              margin-top: 0;
+              float: none ;
+              clear: both ;
+              text-align: center  }
+
+H5.h5left { margin-left: 0%;
+            margin-right: 1%;
+            margin-bottom: .5% ;
+            margin-top: 0;
+            float: left ;
+            clear: left ;
+            text-align: center }
+
+H5.h5right { margin-left: 1%;
+             margin-right: 0 ;
+             margin-bottom: .5% ;
+             margin-top: 0;
+             float: right ;
+             clear: right ;
+             text-align: center }
+
+H5.h5center { margin-left: 0;
+              margin-right: 0 ;
+              margin-bottom: .5% ;
+              margin-top: 0;
+              float: none ;
+              clear: both ;
+              text-align: center  }
+
+IMG.imgleft { float: left;
+              clear: left;
+              margin-left: 0;
+              margin-bottom: 0;
+              margin-top: 1%;
+              margin-right: 1%;
+              padding: 0;
+              text-align: center }
+
+IMG.imgright {float: right;
+              clear: right;
+              margin-left: 1%;
+              margin-bottom: 0;
+              margin-top: 1%;
+              margin-right: 0;
+              padding: 0;
+              text-align: center }
+
+IMG.imgcenter { margin-left: auto;
+                margin-bottom: 0;
+                margin-top: 1%;
+                margin-right: auto; }
+
+.pagenum { position: absolute;
+           left: 1%;
+           font-size: 95%;
+           text-align: left;
+           text-indent: 0;
+           font-style: normal;
+           font-weight: normal;
+           font-variant: normal; }
+
+.sidenote { left: 0%;
+            font-size: 65%;
+            text-align: left;
+            text-indent: 0%;
+            width: 17%;
+            float: left;
+            clear: left;
+            padding-left: 0%;
+            padding-right: 2%;
+            padding-top: 2%;
+            padding-bottom: 2%;
+            font-style: normal;
+            font-weight: normal;
+            font-variant: normal; }
+            
+P.dialog {text-indent: -5%;
+          font-size: small ;
+          margin-left: 5% ;
+          margin-right: 0% }
+
+P.stage {text-indent: 0%;
+         font-size: small ;
+         margin-left: 10% ;
+         margin-right: 10% }
+

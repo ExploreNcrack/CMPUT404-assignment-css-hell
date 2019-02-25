@@ -14,6 +14,29 @@ body {
   display: flex;
   flex-direction: row; }
 
+img{
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.3);
+  padding: 5px;
+  border-radius: 13px;
+  width: 40%;
+  height: 60%;
+  position: absolute;
+  left: 50%;
+  transform: translate(-50%, 0%);
+}
+
+.title-name-1{
+  text-align: left;
+  font-size: 10pt;
+  height: auto;
+  width: 50%;
+  position: absolute;
+  left: 50%;
+  top: 35%;
+  transform: translate(-50%, -50%);
+}
+
+
 li a{
   color: blue;
 }

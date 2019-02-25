@@ -1,4 +1,4 @@
-@import url(http://fonts.googleapis.com/css?family=Raleway:400,300,800|Lora:400italic|Playfair+Display:700);
+@import url(http://fonts.googleapis.com/css?family=Raleway:400,300,800|Dancing+Script:400);
 
 
 body {
@@ -8,7 +8,24 @@ body {
     color: #69606b;
 }
 
+img{
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.3);
+  
+  padding: 5px;
+  border-radius: 13px;
+}
+
+H1,H2,H3{
+  font-size: 23pt;
+}
+
+
+
 h1,h2 {
+    font-size: 40pt;
+    font-family: 'Dancing Script', cursive;
+    font-weight: bold;
+    color: #000;
     text-align: center; /* all headings centered */
     clear: both;
 }
@@ -20,6 +37,16 @@ p {
     text-align: justify;
     margin-bottom: .49em;
 }
+
+
+
+div.container {
+  text-align: center;
+  padding: 10px 20px;
+  font-size: 15pt;
+  font-weight: bold;
+}
+
 
 hr {
     width: 33%;
